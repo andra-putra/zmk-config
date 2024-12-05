@@ -20,9 +20,9 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        tapping_term: tapping_term {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
+            label = "TAPPING_TERM";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
@@ -31,9 +31,9 @@
             hold-trigger-key-positions = <28 27 31 32>;
         };
 
-        new_behavior: new_behavior {
+        sticky_key_release: sticky_key_release {
             compatible = "zmk,behavior-sticky-key";
-            label = "NEW_BEHAVIOR";
+            label = "STICKY_KEY_RELEASE";
             bindings = <&none>;
             #binding-cells = <1>;
             release-after-ms = <2000>;
