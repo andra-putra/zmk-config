@@ -21,11 +21,11 @@
             //                            | GUI  | LOWER|  SPACE |  | ENTER | RAISE|  ALT  |
 
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                                                 &kp N6     &kp N7   &kp N8     &kp N9   &kp N0    &kp BACKSLASH
-&kp ESC         &kp Q   &kp W   &kp E   &kp R     &kp T                                                  &kp Y      &kp U    &kp I      &kp O    &kp P     &kp MINUS
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F     &kp G                                                  &kp H      &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
-&kp CAPS        &kp Z   &kp X   &kp C   &kp V     &kp B           &kp INT_KATAKANAHIRAGANA  &kp RBKT     &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
-                                        &kp LGUI  &kp LEFT_SHIFT  &lt 1 BACKSPACE           &lt 1 ENTER  &kp SPACE  &kp TAB
+&kp GRAVE       &kp N1  &kp N2  &kp N3          &kp N4          &kp N5                                                 &kp N6     &kp N7           &kp N8           &kp N9   &kp N0    &kp BACKSLASH
+&kp ESC         &kp Q   &kp W   &kp E           &kp R           &kp T                                                  &kp Y      &kp U            &kp I            &kp O    &kp P     &kp MINUS
+&sk LEFT_SHIFT  &kp A   &kp S   &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G                                                  &kp H      &mt RIGHT_GUI J  &mt RIGHT_ALT K  &kp L    &kp SEMI  &kp SQT
+&kp CAPS        &kp Z   &kp X   &kp C           &kp V           &kp B           &kp INT_KATAKANAHIRAGANA  &tog 2       &kp N      &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp EQUAL
+                                                &kp LGUI        &sk LEFT_SHIFT  &lt 1 BACKSPACE           &lt 1 ENTER  &kp SPACE  &kp TAB
             >;
         };
 
@@ -39,7 +39,7 @@
             >;
         };
 
-        layer_2 {
+        numpad {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp HOME       &kp KP_NUMLOCK   &kp SLASH        &kp ASTERISK     &kp MINUS     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp PAGE_UP    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS      &trans
