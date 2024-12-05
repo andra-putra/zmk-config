@@ -63,7 +63,7 @@
             bindings = <
 &trans          &bt BT_NXT  &none  &none  &none  &none                  &none  &none  &none  &none  &none  &trans
 &bt BT_CLR_ALL  &none       &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
-&bt BT_CLR      &none       &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
+&bt BT_CLR      &none       &kp B  &kp B  &kp B  &none                  &none  &kp T  &kp T  &kp T  &none  &none
 &none           &none       &none  &none  &none  &none  &none   &none   &none  &none  &none  &none  &none  &none
                                           &none  &none  &trans  &trans  &none  &none
             >;
